@@ -9,14 +9,37 @@
 /* Begin PBXBuildFile section */
 		18015568297FB99F0098C1B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18015567297FB99F0098C1B9 /* AppDelegate.swift */; };
 		1801556A297FB99F0098C1B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18015569297FB99F0098C1B9 /* SceneDelegate.swift */; };
-		1801556C297FB99F0098C1B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801556B297FB99F0098C1B9 /* ViewController.swift */; };
-		1801556F297FB99F0098C1B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1801556D297FB99F0098C1B9 /* Main.storyboard */; };
 		18015572297FB99F0098C1B9 /* Virtusa_Assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18015570297FB99F0098C1B9 /* Virtusa_Assignment.xcdatamodeld */; };
 		18015574297FB9A70098C1B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18015573297FB9A70098C1B9 /* Assets.xcassets */; };
 		18015577297FB9A70098C1B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18015575297FB9A70098C1B9 /* LaunchScreen.storyboard */; };
 		18015582297FB9A70098C1B9 /* Virtusa_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18015581297FB9A70098C1B9 /* Virtusa_AssignmentTests.swift */; };
 		1801558C297FB9A70098C1B9 /* Virtusa_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801558B297FB9A70098C1B9 /* Virtusa_AssignmentUITests.swift */; };
 		1801558E297FB9A70098C1B9 /* Virtusa_AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801558D297FB9A70098C1B9 /* Virtusa_AssignmentUITestsLaunchTests.swift */; };
+		1801559D297FBBB50098C1B9 /* HttpRequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801559C297FBBB50098C1B9 /* HttpRequestHelper.swift */; };
+		180155A8297FCC460098C1B9 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180155A7297FCC460098C1B9 /* Match.swift */; };
+		180155AA297FCCB20098C1B9 /* MatchesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180155A9297FCCB20098C1B9 /* MatchesService.swift */; };
+		180155AC297FCCBD0098C1B9 /* TeamsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180155AB297FCCBD0098C1B9 /* TeamsService.swift */; };
+		180155AE297FCCCC0098C1B9 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180155AD297FCCCC0098C1B9 /* Team.swift */; };
+		180155B0297FE43B0098C1B9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180155AF297FE43A0098C1B9 /* HomeViewController.swift */; };
+		180155B2297FE45D0098C1B9 /* MatchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180155B1297FE45D0098C1B9 /* MatchesViewModel.swift */; };
+		180155B4297FE5EB0098C1B9 /* MatchCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180155B3297FE5EB0098C1B9 /* MatchCellViewModel.swift */; };
+		1812E27A2982F2DF00AE7794 /* MatchesData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812E2782982F2DF00AE7794 /* MatchesData+CoreDataClass.swift */; };
+		1812E27B2982F2DF00AE7794 /* MatchesData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812E2792982F2DF00AE7794 /* MatchesData+CoreDataProperties.swift */; };
+		1812E27E298318F200AE7794 /* TeamsData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812E27C298318F200AE7794 /* TeamsData+CoreDataClass.swift */; };
+		1812E27F298318F200AE7794 /* TeamsData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1812E27D298318F200AE7794 /* TeamsData+CoreDataProperties.swift */; };
+		183EDA462981601A00A5CC42 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EDA452981601A00A5CC42 /* NetworkManager.swift */; };
+		183EDA4B2981BDBA00A5CC42 /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183EDA4A2981BDBA00A5CC42 /* DatabaseHandler.swift */; };
+		1859A49B29812E4D006BDAE6 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859A49A29812E4D006BDAE6 /* TeamViewController.swift */; };
+		1859A49D29812E7E006BDAE6 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859A49C29812E7E006BDAE6 /* TeamTableViewCell.swift */; };
+		186E59CD2983501E004DFC22 /* Configurations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 186E59CC2983501E004DFC22 /* Configurations.plist */; };
+		1880D3F629834A8100BE91B2 /* CellIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880D3F529834A8100BE91B2 /* CellIdentifier.swift */; };
+		1880D3F829834C1100BE91B2 /* URLIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880D3F729834C1100BE91B2 /* URLIdentifier.swift */; };
+		18C7230F297FF93E00EBFA6D /* TeamsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7230E297FF93E00EBFA6D /* TeamsViewModel.swift */; };
+		18C72311297FFA5000EBFA6D /* TeamCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C72310297FFA4F00EBFA6D /* TeamCellViewModel.swift */; };
+		18C72316298060C200EBFA6D /* MatchDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C72315298060C200EBFA6D /* MatchDetailsCollectionViewCell.swift */; };
+		18C723182980727000EBFA6D /* MatchDetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C723172980727000EBFA6D /* MatchDetailsHeaderView.swift */; };
+		18FC9BDA2982D3FC004760C3 /* UIViewController Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9BD92982D3FC004760C3 /* UIViewController Extention.swift */; };
+		18FC9BDC2982D416004760C3 /* Image Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9BDB2982D416004760C3 /* Image Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +63,6 @@
 		18015564297FB99F0098C1B9 /* Virtusa_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Virtusa_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18015567297FB99F0098C1B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18015569297FB99F0098C1B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1801556B297FB99F0098C1B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1801556E297FB99F0098C1B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18015571297FB99F0098C1B9 /* Virtusa_Assignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Virtusa_Assignment.xcdatamodel; sourceTree = "<group>"; };
 		18015573297FB9A70098C1B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18015576297FB9A70098C1B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +72,31 @@
 		18015587297FB9A70098C1B9 /* Virtusa_AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Virtusa_AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1801558B297FB9A70098C1B9 /* Virtusa_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtusa_AssignmentUITests.swift; sourceTree = "<group>"; };
 		1801558D297FB9A70098C1B9 /* Virtusa_AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtusa_AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1801559C297FBBB50098C1B9 /* HttpRequestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestHelper.swift; sourceTree = "<group>"; };
+		180155A7297FCC460098C1B9 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		180155A9297FCCB20098C1B9 /* MatchesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesService.swift; sourceTree = "<group>"; };
+		180155AB297FCCBD0098C1B9 /* TeamsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsService.swift; sourceTree = "<group>"; };
+		180155AD297FCCCC0098C1B9 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		180155AF297FE43A0098C1B9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		180155B1297FE45D0098C1B9 /* MatchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewModel.swift; sourceTree = "<group>"; };
+		180155B3297FE5EB0098C1B9 /* MatchCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCellViewModel.swift; sourceTree = "<group>"; };
+		1812E2782982F2DF00AE7794 /* MatchesData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchesData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1812E2792982F2DF00AE7794 /* MatchesData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchesData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1812E27C298318F200AE7794 /* TeamsData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeamsData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1812E27D298318F200AE7794 /* TeamsData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeamsData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		183EDA452981601A00A5CC42 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		183EDA4A2981BDBA00A5CC42 /* DatabaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHandler.swift; sourceTree = "<group>"; };
+		1859A49A29812E4D006BDAE6 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		1859A49C29812E7E006BDAE6 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
+		186E59CC2983501E004DFC22 /* Configurations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configurations.plist; sourceTree = "<group>"; };
+		1880D3F529834A8100BE91B2 /* CellIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifier.swift; sourceTree = "<group>"; };
+		1880D3F729834C1100BE91B2 /* URLIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLIdentifier.swift; sourceTree = "<group>"; };
+		18C7230E297FF93E00EBFA6D /* TeamsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewModel.swift; sourceTree = "<group>"; };
+		18C72310297FFA4F00EBFA6D /* TeamCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCellViewModel.swift; sourceTree = "<group>"; };
+		18C72315298060C200EBFA6D /* MatchDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		18C723172980727000EBFA6D /* MatchDetailsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailsHeaderView.swift; sourceTree = "<group>"; };
+		18FC9BD92982D3FC004760C3 /* UIViewController Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController Extention.swift"; sourceTree = "<group>"; };
+		18FC9BDB2982D416004760C3 /* Image Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +147,17 @@
 		18015566297FB99F0098C1B9 /* Virtusa_Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				183EDA472981BC4700A5CC42 /* CoreData */,
+				1801559A297FBB820098C1B9 /* Helpers */,
+				1801559B297FBB8A0098C1B9 /* Services */,
+				180155A4297FCBF00098C1B9 /* ViewModel */,
+				180155A3297FCBE90098C1B9 /* View */,
+				180155A2297FC9B80098C1B9 /* Model */,
 				18015567297FB99F0098C1B9 /* AppDelegate.swift */,
 				18015569297FB99F0098C1B9 /* SceneDelegate.swift */,
-				1801556B297FB99F0098C1B9 /* ViewController.swift */,
-				1801556D297FB99F0098C1B9 /* Main.storyboard */,
 				18015573297FB9A70098C1B9 /* Assets.xcassets */,
 				18015575297FB9A70098C1B9 /* LaunchScreen.storyboard */,
+				186E59CC2983501E004DFC22 /* Configurations.plist */,
 				18015578297FB9A70098C1B9 /* Info.plist */,
 				18015570297FB99F0098C1B9 /* Virtusa_Assignment.xcdatamodeld */,
 			);
@@ -128,6 +179,80 @@
 				1801558D297FB9A70098C1B9 /* Virtusa_AssignmentUITestsLaunchTests.swift */,
 			);
 			path = Virtusa_AssignmentUITests;
+			sourceTree = "<group>";
+		};
+		1801559A297FBB820098C1B9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1801559C297FBBB50098C1B9 /* HttpRequestHelper.swift */,
+				183EDA452981601A00A5CC42 /* NetworkManager.swift */,
+				18FC9BD92982D3FC004760C3 /* UIViewController Extention.swift */,
+				18FC9BDB2982D416004760C3 /* Image Extention.swift */,
+				1880D3F529834A8100BE91B2 /* CellIdentifier.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1801559B297FBB8A0098C1B9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				180155A9297FCCB20098C1B9 /* MatchesService.swift */,
+				180155AB297FCCBD0098C1B9 /* TeamsService.swift */,
+				1880D3F729834C1100BE91B2 /* URLIdentifier.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		180155A2297FC9B80098C1B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				180155A7297FCC460098C1B9 /* Match.swift */,
+				180155AD297FCCCC0098C1B9 /* Team.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		180155A3297FCBE90098C1B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18C72312298049FC00EBFA6D /* Cell */,
+				180155AF297FE43A0098C1B9 /* HomeViewController.swift */,
+				1859A49A29812E4D006BDAE6 /* TeamViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		180155A4297FCBF00098C1B9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				180155B1297FE45D0098C1B9 /* MatchesViewModel.swift */,
+				180155B3297FE5EB0098C1B9 /* MatchCellViewModel.swift */,
+				18C7230E297FF93E00EBFA6D /* TeamsViewModel.swift */,
+				18C72310297FFA4F00EBFA6D /* TeamCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		183EDA472981BC4700A5CC42 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1812E27C298318F200AE7794 /* TeamsData+CoreDataClass.swift */,
+				1812E27D298318F200AE7794 /* TeamsData+CoreDataProperties.swift */,
+				1812E2782982F2DF00AE7794 /* MatchesData+CoreDataClass.swift */,
+				1812E2792982F2DF00AE7794 /* MatchesData+CoreDataProperties.swift */,
+				183EDA4A2981BDBA00A5CC42 /* DatabaseHandler.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		18C72312298049FC00EBFA6D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				18C72315298060C200EBFA6D /* MatchDetailsCollectionViewCell.swift */,
+				18C723172980727000EBFA6D /* MatchDetailsHeaderView.swift */,
+				1859A49C29812E7E006BDAE6 /* TeamTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +360,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18015577297FB9A70098C1B9 /* LaunchScreen.storyboard in Resources */,
+				186E59CD2983501E004DFC22 /* Configurations.plist in Resources */,
 				18015574297FB9A70098C1B9 /* Assets.xcassets in Resources */,
-				1801556F297FB99F0098C1B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +386,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1801556C297FB99F0098C1B9 /* ViewController.swift in Sources */,
+				1859A49B29812E4D006BDAE6 /* TeamViewController.swift in Sources */,
+				18C72316298060C200EBFA6D /* MatchDetailsCollectionViewCell.swift in Sources */,
+				1859A49D29812E7E006BDAE6 /* TeamTableViewCell.swift in Sources */,
+				183EDA462981601A00A5CC42 /* NetworkManager.swift in Sources */,
+				1880D3F829834C1100BE91B2 /* URLIdentifier.swift in Sources */,
+				180155AE297FCCCC0098C1B9 /* Team.swift in Sources */,
+				18FC9BDA2982D3FC004760C3 /* UIViewController Extention.swift in Sources */,
+				180155AA297FCCB20098C1B9 /* MatchesService.swift in Sources */,
+				180155B4297FE5EB0098C1B9 /* MatchCellViewModel.swift in Sources */,
+				1812E27E298318F200AE7794 /* TeamsData+CoreDataClass.swift in Sources */,
+				1801559D297FBBB50098C1B9 /* HttpRequestHelper.swift in Sources */,
 				18015572297FB99F0098C1B9 /* Virtusa_Assignment.xcdatamodeld in Sources */,
+				18C7230F297FF93E00EBFA6D /* TeamsViewModel.swift in Sources */,
+				18FC9BDC2982D416004760C3 /* Image Extention.swift in Sources */,
+				18C72311297FFA5000EBFA6D /* TeamCellViewModel.swift in Sources */,
+				180155AC297FCCBD0098C1B9 /* TeamsService.swift in Sources */,
+				180155B0297FE43B0098C1B9 /* HomeViewController.swift in Sources */,
+				1812E27F298318F200AE7794 /* TeamsData+CoreDataProperties.swift in Sources */,
+				1812E27B2982F2DF00AE7794 /* MatchesData+CoreDataProperties.swift in Sources */,
+				180155B2297FE45D0098C1B9 /* MatchesViewModel.swift in Sources */,
+				183EDA4B2981BDBA00A5CC42 /* DatabaseHandler.swift in Sources */,
+				1880D3F629834A8100BE91B2 /* CellIdentifier.swift in Sources */,
 				18015568297FB99F0098C1B9 /* AppDelegate.swift in Sources */,
 				1801556A297FB99F0098C1B9 /* SceneDelegate.swift in Sources */,
+				1812E27A2982F2DF00AE7794 /* MatchesData+CoreDataClass.swift in Sources */,
+				18C723182980727000EBFA6D /* MatchDetailsHeaderView.swift in Sources */,
+				180155A8297FCC460098C1B9 /* Match.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +449,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1801556D297FB99F0098C1B9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1801556E297FB99F0098C1B9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18015575297FB9A70098C1B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,7 +510,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -424,7 +564,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -446,9 +586,8 @@
 				INFOPLIST_FILE = Virtusa_Assignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +595,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Kruti.Virtusa-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -474,9 +616,8 @@
 				INFOPLIST_FILE = Virtusa_Assignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,6 +625,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Kruti.Virtusa-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -576,7 +720,7 @@
 				18015590297FB9A70098C1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		18015591297FB9A70098C1B9 /* Build configuration list for PBXNativeTarget "Virtusa_Assignment" */ = {
 			isa = XCConfigurationList;
@@ -585,7 +729,7 @@
 				18015593297FB9A70098C1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		18015594297FB9A70098C1B9 /* Build configuration list for PBXNativeTarget "Virtusa_AssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -594,7 +738,7 @@
 				18015596297FB9A70098C1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		18015597297FB9A70098C1B9 /* Build configuration list for PBXNativeTarget "Virtusa_AssignmentUITests" */ = {
 			isa = XCConfigurationList;
@@ -603,7 +747,7 @@
 				18015599297FB9A70098C1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 

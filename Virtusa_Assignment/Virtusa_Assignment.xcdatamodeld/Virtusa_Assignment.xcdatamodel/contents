@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21512" systemVersion="21G115" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MatchesData" representedClassName=".MatchesData" syncable="YES">
+        <attribute name="away" attributeType="String"/>
+        <attribute name="highlights" optional="YES" attributeType="String"/>
+        <attribute name="home" attributeType="String"/>
+        <attribute name="matchDescription" attributeType="String"/>
+        <attribute name="winner" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TeamsData" representedClassName=".TeamsData" syncable="YES">
+        <attribute name="id" attributeType="String"/>
+        <attribute name="logo" optional="YES" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+    </entity>
 </model>

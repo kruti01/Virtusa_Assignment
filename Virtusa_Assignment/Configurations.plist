@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Debug</key>
+	<dict>
+		<key>backendURL</key>
+		<string>https://jmde6xvjr4.execute-api.us-east-1.amazonaws.com</string>
+	</dict>
+	<key>Release</key>
+	<dict>
+		<key>backendURL</key>
+		<string>https://jmde6xvjr4.execute-api.us-east-1.amazonaws.com</string>
+	</dict>
+</dict>
+</plist>
