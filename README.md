@@ -46,3 +46,6 @@ MVVM structure is used
 
 [filter demo](https://github.com/kruti01/Virtusa_Assignment/blob/main/filter.gif)
 
+[show highlights demo](https://github.com/kruti01/Virtusa_Assignment/blob/main/highlights.gif)
+
+[show data demo](https://github.com/kruti01/Virtusa_Assignment/blob/main/showdata.gif)
