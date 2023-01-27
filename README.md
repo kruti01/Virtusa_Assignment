@@ -45,8 +45,7 @@ MVVM structure is used
 ## Demo
 
  <img src="https://github.com/kruti01/Virtusa_Assignment/blob/main/filter.gif"/>
-[filter demo](https://github.com/kruti01/Virtusa_Assignment/blob/main/filter.gif)
 
-[show highlights demo](https://github.com/kruti01/Virtusa_Assignment/blob/main/highlights.gif)
+ <img src="https://github.com/kruti01/Virtusa_Assignment/blob/main/highlights.gif"/>
 
-[show data demo](https://github.com/kruti01/Virtusa_Assignment/blob/main/showdata.gif)
+ <img src="https://github.com/kruti01/Virtusa_Assignment/blob/main/showdata.gif"/>
