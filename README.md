@@ -44,5 +44,5 @@ MVVM structure is used
 
 ## Demo
 
-Insert gif or link to demo
+[filter demo](https://github.com/kruti01/Virtusa_Assignment/blob/main/filter.gif)
 
